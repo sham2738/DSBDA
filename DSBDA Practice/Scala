@@ -1,0 +1,41 @@
+java-version
+
+spark folder
+
+cd spark/
+
+Download spark
+
+extract spark file
+
+tar -xvf spark file name
+
+gedit ~/.bashrc
+
+SPARK_HOME=/home/student/spark/spark-2.1.1-bin-hadoop2.7
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+
+source ~/.bashrc
+
+spark-shell
+
+
+
+
+
+// Scala program to find given number is POSITIVE/NEGATIVE 
+// using "IF" statement
+
+object Sample{  
+  def main(args:Array[String]){  
+    var num:Int = 0;
+    
+    print("Enter number:")
+    num=scala.io.StdIn.readInt()
+    
+    if(num>=0)
+      println("Number is POSITIVE")
+    else
+      println("Number is NEGATIVE")
+  }
+}
