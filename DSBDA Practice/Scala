@@ -23,9 +23,6 @@ spark-shell
 
 
 
-// Scala program to find given number is POSITIVE/NEGATIVE 
-// using "IF" statement
-
 object Sample{  
   def main(args:Array[String]){  
     var num:Int = 0;
